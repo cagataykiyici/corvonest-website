@@ -11,32 +11,32 @@ Expert Generalist DNA for Mobile Innovation
 
 ### Initial Setup
 
-1. **Update Project ID**: Edit `.firebaserc` and replace `YOUR_GCP_PROJECT_ID` with your actual GCP project ID
+1. **Project Configuration**: Already configured for project `copartners-project`
 
 2. **Authenticate with Firebase**:
    ```bash
    firebase login
    ```
 
-3. **Enable Firebase Hosting** in your GCP project:
+3. **Create Separate Hosting Site** (multiple sites in one project):
    ```bash
-   firebase init hosting
+   # Create a new site for CorvoNest website
+   firebase hosting:sites:create corvonest-website
    ```
-   - Select existing project
-   - Set public directory as `public`
-   - Configure as single-page app: Yes
-   - Don't overwrite existing index.html
+
+4. **Verify Site Configuration**:
+   The firebase.json is already configured for site "corvonest-website"
 
 ### Deployment
 
-1. **Deploy to Firebase**:
+1. **Deploy CorvoNest Website**:
    ```bash
-   firebase deploy
+   firebase deploy --only hosting:corvonest-website
    ```
 
 2. **View your site**:
-   - Temporary URL: `https://YOUR_PROJECT_ID.web.app`
-   - Or: `https://YOUR_PROJECT_ID.firebaseapp.com`
+   - CorvoNest site: `https://corvonest-website--copartners-project.web.app`
+   - Your Flutter app remains on: `https://copartners-project.web.app` (or your custom domain)
 
 ### Custom Domain Setup
 
@@ -59,6 +59,27 @@ corvoweb/
 ├── firebase.json          # Firebase configuration
 ├── .firebaserc           # Project configuration
 └── README.md             # This file
+```
+
+### Multiple Sites Management
+
+This project uses Firebase multiple sites feature:
+- **CorvoNest Website**: `corvonest-website` site
+- **Your Flutter App**: Default site (unchanged)
+
+**Commands for Multiple Sites**:
+```bash
+# List all sites
+firebase hosting:sites:list
+
+# Deploy only CorvoNest site
+firebase deploy --only hosting:corvonest-website
+
+# Deploy all sites
+firebase deploy
+
+# View site URLs
+firebase hosting:sites:get corvonest-website
 ```
 
 ### Performance Features

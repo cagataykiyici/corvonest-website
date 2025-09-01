@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "corvonest-website",
     "public": "public",
     "ignore": [
       "firebase.json",
