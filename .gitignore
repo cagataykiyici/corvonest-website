@@ -1,0 +1,21 @@
+# Firebase
+.firebase/
+firebase-debug.log*
+.firebaserc.backup
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules (if you add any build tools later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
