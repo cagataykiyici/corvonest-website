@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /support.html
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+Disallow: /cookie-policy.html
+
+Sitemap: https://corvonest.com/sitemap.xml
