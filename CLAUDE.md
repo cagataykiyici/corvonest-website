@@ -36,6 +36,9 @@ CorvoNest website is a static HTML website hosted on Firebase Hosting. The proje
 # Manual Firebase deploy
 firebase deploy --only hosting
 
+# Preview deployment (for testing)
+firebase hosting:channel:deploy preview --expires 7d
+
 # Deploy and serve locally for testing
 firebase serve --only hosting
 ```
@@ -53,6 +56,18 @@ firebase hosting:sites:list
 
 # Get site details
 firebase hosting:sites:get corvonest-website
+
+# List all Firebase projects
+firebase projects:list
+```
+
+### Local Development
+```bash
+# Serve locally at localhost:5000
+firebase serve --only hosting
+
+# Navigate to project directory
+cd /Users/cagatay/dev/corvoweb
 ```
 
 ## Configuration
@@ -85,6 +100,8 @@ public/
 - `firebase.json`: Hosting configuration with headers and rewrites
 - `deploy.sh`: Automated deployment script with error checking
 - `.firebaserc`: Project configuration linking to `copartners-project`
+- `docs/technical_notes.md`: Future upgrade plans and development roadmap
+- `README_DEPLOY.md`: Step-by-step deployment instructions and troubleshooting
 
 ## Styling Conventions
 
@@ -123,3 +140,31 @@ public/
 - Clean URLs enabled (no .html extensions)
 - Image optimization headers
 - Minified and embedded CSS/JS for faster loading
+
+## Troubleshooting
+
+### Common Deployment Issues
+```bash
+# Permission denied on deploy script
+chmod +x deploy.sh
+
+# Authentication errors
+firebase login --reauth
+
+# Wrong directory error
+cd /Users/cagatay/dev/corvoweb
+
+# Verify Firebase configuration
+ls -la | grep firebase.json
+```
+
+### Development Workflow
+1. **Edit website**: Make changes to `public/index.html`
+2. **Test locally** (optional): `firebase serve --only hosting`
+3. **Deploy**: `./deploy.sh`
+4. **Verify**: Check https://corvonest-website.web.app (changes appear in ~30 seconds)
+
+## Project URLs
+- **Live Website**: https://corvonest-website.web.app
+- **Custom Domain**: corvonest.com (configured in Firebase Console)
+- **Firebase Console**: https://console.firebase.google.com/project/copartners-project/hosting
