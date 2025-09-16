@@ -1,0 +1,86 @@
+--- START OF FILE Privacy Policy.txt ---
+
+PRIVACY POLICY
+
+Last Updated: [Date]
+
+1.  Who we are, and the purpose of this Privacy Policy:
+
+This Privacy Policy (“Policy”) explains the privacy practices of CORVONEST OÜ (Company Registration Number: 17313387 at Harju maakond, Kesklinna linnaosa, Viru väljak 2, 3. korrus Tallinn 10111 Estonia) (“we,” “us,” “our”) relating to your access and use of our website (www.corvonest.com), our mobile applications, and related services (collectively, the “Services”).
+
+This Policy is designed to help you better understand how we collect, use, store, or share any personal information about you (your “Personal Data”). It also describes your rights in relation to your Personal Data. Under data protection law, particularly the General Data Protection Regulation (GDPR), we only process Personal Data in compliance with applicable data protection laws. CORVONEST OÜ is responsible as controller for the data processing described in this Policy, unless stated otherwise in a service-specific policy.
+
+We may update this Policy from time to time by publishing a new version on our website (www.corvonest.com).
+
+2.  On what basis do we process your Personal Data?
+
+We process your Personal Data using the following legal bases under the GDPR:
+
+(i) With your consent (Art. 6(1)(a) GDPR): For specific purposes where we have explicitly asked for your consent.
+(ii) To perform a contract with you (Art. 6(1)(b) GDPR): To provide the Services you have signed up for within our mobile applications.
+(iii) For compliance with a legal obligation (Art. 6(1)(c) GDPR): When we are required to process your data by law (e.g., for tax or accounting purposes).
+(iv) For our legitimate interests (Art. 6(1)(f) GDPR): When processing is necessary for our legitimate interests, such as ensuring the security of our website and Services, responding to your inquiries, or improving our products.
+
+3.  What kinds of Personal Data do we use, and for what purposes?
+
+We collect and use your Personal Data differently depending on how you interact with us.
+
+3.1. Users of our Mobile Applications
+This section applies when you use one of the mobile applications produced by CORVONEST OÜ.
+
+*   **Account Registration and Profile Information:** We process data like your name, email address, and password to create and manage your account, provide our Services, and communicate with you.
+*   **Payment Information:** For paid services within our apps, we use third-party processors to handle payments. We do not store your full payment card details.
+*   **Usage and Activity Data:** We collect information about your interaction with our applications, such as features used and progress, to personalize your experience and improve the service.
+*   **Technical Data:** We process device information, IP addresses, and crash reports to ensure the security and stability of our applications and to fix bugs.
+*   **Marketing Communications (Optional):** With your consent, we may use your email address to send you information about new features, offers, or other company news.
+
+3.2. Visitors to our Website (www.corvonest.com)
+Our website is a corporate site for informational purposes. We do not offer user registration or accounts on the website. The personal data we collect through the website is limited to the following:
+
+*   **Information You Provide via Our Contact Form:**
+    *   **Data Processed:** Name, email address, and any information you voluntarily provide in your message.
+    *   **Purposes:** To receive, process, and respond to your inquiries, comments, or questions.
+    *   **Legal Basis:** Legitimate Interest (Art. 6(1)(f) GDPR) to communicate with individuals who contact us.
+*   **Technical Data from Browsing:**
+    *   **Data Processed:** IP address, server log files, browser type, and operating system.
+    *   **Purposes:** To ensure the security, stability, and proper functioning of our website and to defend against cyber-attacks.
+    *   **Legal Basis:** Legitimate Interest (Art. 6(1)(f) GDPR).
+*   **Cookies:**
+    *   We use essential cookies to operate our website. For any non-essential cookies (e.g., for analytics), we will ask for your consent. For full details, please see our Cookie Policy.
+
+4.  Your rights in relation to your Personal Data:
+
+Under the GDPR, you have the following rights: Right of Access, Right to Rectification, Right to Erasure, Right to Restriction of Processing, Right to Data Portability, Right to Object, Right to Withdraw Consent, and the Right to Lodge a Complaint with a supervisory authority (e.g., the Estonian Andmekaitse Inspektsioon). To exercise your rights, please contact us using the details in Section 7.
+
+5.  Where do we process your Personal Data?
+
+In principle, we process your data on servers located within the European Economic Area (EEA). If we use external service providers located outside the EEA, we ensure that any transfer of your Personal Data is protected by appropriate safeguards, such as an adequacy decision by the European Commission or Standard Contractual Clauses (SCCs).
+
+6.  How long do we store your Personal Data?
+
+We only store your Personal Data for as long as is necessary to achieve the processing purpose or to fulfill our contractual or legal obligations. Data from contact form submissions is retained only as long as needed to address your inquiry. Account data from our applications is kept for as long as the account is active. Certain data (e.g., related to payments) must be retained for longer periods due to statutory retention obligations.
+
+7.  How can you contact us?
+
+If you have any questions about this Policy or would like to exercise your data subject rights, please contact us at:
+CORVONEST OÜ
+Harju maakond, Kesklinna linnaosa, Viru väljak 2, 3. korrus Tallinn 10111
+Estonia
+Email: support@corvonest.com
+
+8.  Who do we share your Personal Data with, and why?
+
+We do not sell your Personal Data. We may share your Personal Data with third parties only in the following circumstances: Service Providers (e.g., cloud hosting, payment processors), for Legal Obligations and Rights, during Business Transfers, or with your explicit consent.
+
+9.  Legal basis according to the GDPR (Summary)
+
+Consent: Art. 6(1)(a) GDPR
+Performance of a contract: Art. 6(1)(b) GDPR
+Legal obligation: Art. 6(1)(c) GDPR
+Legitimate interest: Art. 6(1)(f) GDPR
+
+10. ADDITIONAL COUNTRY OR REGION-SPECIFIC INFORMATION
+
+While we are based in Estonia and primarily operate under GDPR, users in other jurisdictions may have different or additional rights. If applicable, this section will provide additional information for residents of specific regions (e.g., California (CCPA), other U.S. States, Canada, Switzerland).
+
+--- END OF FILE Privacy Policy.txt ---```

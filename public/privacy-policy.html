@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CorvoNest | Digital Product Studio Estonia</title>
+    <meta name="description" content="CorvoNest Privacy Policy - Learn how we collect, use, and protect your personal data in compliance with GDPR and data protection laws.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://corvonest.com/privacy-policy.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="LOGO/256.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="LOGO/256.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="LOGO/512.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #a3a3a3;
+            --text-muted: #525252;
+            --accent-primary: #00ff88;
+            --accent-secondary: #ff0066;
+            --accent-tertiary: #0066ff;
+            --border-color: #333333;
+            --gradient-dna: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-tertiary) 50%, var(--accent-secondary) 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            object-fit: contain;
+            background: white;
+            padding: 4px;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-primary);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .page-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            background: var(--gradient-dna);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .content {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .content h2 {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 2.5rem 0 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        .content h3 {
+            color: var(--accent-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .content ul {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .last-updated {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .contact-info h3 {
+            color: var(--accent-primary) !important;
+            margin-top: 0;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            transform: translateX(-4px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 1rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .main-content {
+                padding: 6rem 1rem 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">
+                <img src="LOGO/Standart.svg" alt="CorvoNest Logo" class="logo-icon">
+                <span class="logo-text">corvonest</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/">Home</a>
+                <a href="/terms.html">Terms</a>
+                <a href="/cookie-policy.html">Cookies</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <a href="/" class="back-link">
+            ← Back to Home
+        </a>
+
+        <div class="page-header">
+            <h1 class="page-title">Privacy Policy</h1>
+            <p class="page-subtitle">How we collect, use, and protect your personal data</p>
+        </div>
+
+        <div class="last-updated">
+            Last Updated: 12 Sep 2025
+        </div>
+
+        <div class="content">
+            <h2>1. Who we are, and the purpose of this Privacy Policy</h2>
+
+            <p>This Privacy Policy ("Policy") explains the privacy practices of CORVONEST OÜ (Company Registration Number: 17313387 at Harju maakond, Kesklinna linnaosa, Viru väljak 2, 3. korrus Tallinn 10111 Estonia) ("we," "us," "our") relating to your access and use of our website (www.corvonest.com), our mobile applications, and related services (collectively, the "Services").</p>
+
+            <p>This Policy is designed to help you better understand how we collect, use, store, or share any personal information about you (your "Personal Data"). It also describes your rights in relation to your Personal Data. Under data protection law, particularly the General Data Protection Regulation (GDPR), we only process Personal Data in compliance with applicable data protection laws. CORVONEST OÜ is responsible as controller for the data processing described in this Policy, unless stated otherwise in a service-specific policy.</p>
+
+            <p>We may update this Policy from time to time by publishing a new version on our website (www.corvonest.com).</p>
+
+            <h2>2. On what basis do we process your Personal Data?</h2>
+
+            <p>We process your Personal Data using the following legal bases under the GDPR:</p>
+
+            <ul>
+                <li><strong>With your consent (Art. 6(1)(a) GDPR):</strong> For specific purposes where we have explicitly asked for your consent.</li>
+                <li><strong>To perform a contract with you (Art. 6(1)(b) GDPR):</strong> To provide the Services you have signed up for within our mobile applications.</li>
+                <li><strong>For compliance with a legal obligation (Art. 6(1)(c) GDPR):</strong> When we are required to process your data by law (e.g., for tax or accounting purposes).</li>
+                <li><strong>For our legitimate interests (Art. 6(1)(f) GDPR):</strong> When processing is necessary for our legitimate interests, such as ensuring the security of our website and Services, responding to your inquiries, or improving our products.</li>
+            </ul>
+
+            <h2>3. What kinds of Personal Data do we use, and for what purposes?</h2>
+
+            <p>We collect and use your Personal Data differently depending on how you interact with us.</p>
+
+            <h3>3.1. Users of our Mobile Applications</h3>
+            <p>This section applies when you use one of the mobile applications produced by CORVONEST OÜ.</p>
+
+            <ul>
+                <li><strong>Account Registration and Profile Information:</strong> We process data like your name, email address, and password to create and manage your account, provide our Services, and communicate with you.</li>
+                <li><strong>Payment Information:</strong> For paid services within our apps, we use third-party processors to handle payments. We do not store your full payment card details.</li>
+                <li><strong>Usage and Activity Data:</strong> We collect information about your interaction with our applications, such as features used and progress, to personalize your experience and improve the service.</li>
+                <li><strong>Technical Data:</strong> We process device information, IP addresses, and crash reports to ensure the security and stability of our applications and to fix bugs.</li>
+                <li><strong>Marketing Communications (Optional):</strong> With your consent, we may use your email address to send you information about new features, offers, or other company news.</li>
+            </ul>
+
+            <h3>3.2. Visitors to our Website (www.corvonest.com)</h3>
+            <p>Our website is a corporate site for informational purposes. We do not offer user registration or accounts on the website. The personal data we collect through the website is limited to the following:</p>
+
+            <ul>
+                <li><strong>Information You Provide via Our Contact Form:</strong>
+                    <ul>
+                        <li><strong>Data Processed:</strong> Name, email address, and any information you voluntarily provide in your message.</li>
+                        <li><strong>Purposes:</strong> To receive, process, and respond to your inquiries, comments, or questions.</li>
+                        <li><strong>Legal Basis:</strong> Legitimate Interest (Art. 6(1)(f) GDPR) to communicate with individuals who contact us.</li>
+                    </ul>
+                </li>
+                <li><strong>Technical Data from Browsing:</strong>
+                    <ul>
+                        <li><strong>Data Processed:</strong> IP address, server log files, browser type, and operating system.</li>
+                        <li><strong>Purposes:</strong> To ensure the security, stability, and proper functioning of our website and to defend against cyber-attacks.</li>
+                        <li><strong>Legal Basis:</strong> Legitimate Interest (Art. 6(1)(f) GDPR).</li>
+                    </ul>
+                </li>
+                <li><strong>Cookies:</strong>
+                    <ul>
+                        <li>We use essential cookies to operate our website. For any non-essential cookies (e.g., for analytics), we will ask for your consent. For full details, please see our Cookie Policy.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>4. Your rights in relation to your Personal Data</h2>
+
+            <p>Under the GDPR, you have the following rights: Right of Access, Right to Rectification, Right to Erasure, Right to Restriction of Processing, Right to Data Portability, Right to Object, Right to Withdraw Consent, and the Right to Lodge a Complaint with a supervisory authority (e.g., the Estonian Andmekaitse Inspektsioon). To exercise your rights, please contact us using the details in Section 7.</p>
+
+            <h2>5. Where do we process your Personal Data?</h2>
+
+            <p>In principle, we process your data on servers located within the European Economic Area (EEA). If we use external service providers located outside the EEA, we ensure that any transfer of your Personal Data is protected by appropriate safeguards, such as an adequacy decision by the European Commission or Standard Contractual Clauses (SCCs).</p>
+
+            <h2>6. How long do we store your Personal Data?</h2>
+
+            <p>We only store your Personal Data for as long as is necessary to achieve the processing purpose or to fulfill our contractual or legal obligations. Data from contact form submissions is retained only as long as needed to address your inquiry. Account data from our applications is kept for as long as the account is active. Certain data (e.g., related to payments) must be retained for longer periods due to statutory retention obligations.</p>
+
+            <div class="contact-info">
+                <h3>7. How can you contact us?</h3>
+                <p>If you have any questions about this Policy or would like to exercise your data subject rights, please contact us at:</p>
+                <p><strong>CORVONEST OÜ</strong><br>
+                Harju maakond, Kesklinna linnaosa, Viru väljak 2, 3. korrus Tallinn 10111<br>
+                Estonia<br>
+                Email: support@corvonest.com</p>
+            </div>
+
+            <h2>8. Who do we share your Personal Data with, and why?</h2>
+
+            <p>We do not sell your Personal Data. We may share your Personal Data with third parties only in the following circumstances: Service Providers (e.g., cloud hosting, payment processors), for Legal Obligations and Rights, during Business Transfers, or with your explicit consent.</p>
+
+            <h2>9. Legal basis according to the GDPR (Summary)</h2>
+
+            <ul>
+                <li>Consent: Art. 6(1)(a) GDPR</li>
+                <li>Performance of a contract: Art. 6(1)(b) GDPR</li>
+                <li>Legal obligation: Art. 6(1)(c) GDPR</li>
+                <li>Legitimate interest: Art. 6(1)(f) GDPR</li>
+            </ul>
+
+            <h2>10. Additional Country or Region-Specific Information</h2>
+
+            <p>While we are based in Estonia and primarily operate under GDPR, users in other jurisdictions may have different or additional rights. If applicable, this section will provide additional information for residents of specific regions (e.g., California (CCPA), other U.S. States, Canada, Switzerland).</p>
+        </div>
+    </main>
+</body>
+</html>

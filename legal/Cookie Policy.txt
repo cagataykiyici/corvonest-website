@@ -1,0 +1,60 @@
+--- START OF FILE Cookie Policy.txt ---
+
+COOKIE (AND SIMILAR TECHNOLOGIES) POLICY
+
+Last Updated: [Date of Policy Publication]
+
+CORVONEST OÜ (“we”, “us”, or “our”) may collect data through "cookies" and similar technologies when you visit our website www.corvonest.com (“Website”) or use our mobile applications (“Applications”) to enhance your experience, deliver our services, and perform analytics.
+
+This Policy explains what these technologies are and how we use them. For more detailed information about your personal data, please review our Privacy Policy available on our website.
+
+1.  What Are Cookies and Similar Technologies?
+
+On our Website, we use browser cookies, which are small text files stored on your device. In our Applications, which have more complex functionality, we use similar technologies like Local Storage and Device Identifiers. In this Policy, we refer to all these technologies as “Cookies.”
+
+2.  For What Purposes Do We Use Cookies?
+
+The purposes for which we use Cookies differ between our informational Website and our functional Applications.
+
+**A. For our Website (www.corvonest.com):**
+
+*   **Essential Functionality:** To ensure the Website operates correctly, securely, and is delivered to you efficiently. These Cookies do not handle logins or personal preferences as the Website does not offer these features.
+*   **Performance and Analytics (With Consent):** To analyze visitor traffic and understand how users interact with our Website in an anonymous or pseudonymous manner, helping us improve its content and structure.
+*   **Marketing (With Consent):** To measure the effectiveness of our marketing campaigns that direct traffic to our Website.
+
+**B. For our Mobile Applications:**
+
+*   **Essential Functionality:** To enable you to log in securely to your account, manage your session, remember essential preferences, and ensure the applications operate as expected.
+*   **Performance and Analytics (With Consent):** To analyze your use of the applications (e.g., which features are used most frequently) to improve user experience and resolve technical issues.
+*   **Security:** To protect your account and your data from suspicious or fraudulent activity.
+
+3.  Types of Cookies and Similar Technologies We Use
+
+*   **Strictly Necessary (Essential) Technologies:**
+    *   On our **Website**, these technologies are absolutely essential for the site to perform its basic functions (e.g., security, network management).
+    *   In our **Applications**, they are also used for services you have requested, such as logging into your account.
+    *   Your consent is not sought for these technologies as our Services cannot function properly without them.
+
+*   **Performance and Analytics Technologies:**
+    *   These technologies help us collect information (usually anonymized) about how our Website and Applications are used. This allows us to improve our Services, detect errors, and enhance user experience.
+    *   Your explicit consent will be requested before we use these technologies.
+
+*   **Marketing Technologies:**
+    *   These technologies can help us deliver marketing communications that are more relevant to you and measure the effectiveness of our campaigns.
+    *   Your explicit consent will always be requested for the use of these technologies.
+
+4.  Managing Cookies and Consent
+
+When you first use one of our Applications or visit our Website, you will be presented with a consent banner. Through this, you can learn about the technologies we use and choose to "Accept All" optional Cookies or "Accept Only Essential" ones.
+
+You can change your consent preferences at any time through the settings in our Applications or on our Website. Additionally, you can manage Cookies through your mobile device's operating system or your web browser's settings. Please note that it is not possible to disable strictly necessary technologies, as this could cause essential functions of the Website or Applications to fail.
+
+5.  Contact Us
+
+If you have any questions or concerns about this Cookie Policy, please do not hesitate to contact us at support@corvonest.com.
+
+CORVONEST OÜ
+Harju maakond, Kesklinna linnaosa, Viru väljak 2, 3. korrus Tallinn 10111
+Estonia
+
+--- END OF FILE Cookie Policy.txt ---

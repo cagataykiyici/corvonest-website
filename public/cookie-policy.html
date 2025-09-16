@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy - CorvoNest | Digital Product Studio Estonia</title>
+    <meta name="description" content="CorvoNest Cookie Policy - Learn how we use cookies and similar technologies on our website and mobile applications.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://corvonest.com/cookie-policy.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="LOGO/256.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="LOGO/256.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="LOGO/512.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #a3a3a3;
+            --text-muted: #525252;
+            --accent-primary: #00ff88;
+            --accent-secondary: #ff0066;
+            --accent-tertiary: #0066ff;
+            --border-color: #333333;
+            --gradient-dna: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-tertiary) 50%, var(--accent-secondary) 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            object-fit: contain;
+            background: white;
+            padding: 4px;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-primary);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .page-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            background: var(--gradient-dna);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .content {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .content h2 {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 2.5rem 0 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        .content h3 {
+            color: var(--accent-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .content ul {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .last-updated {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .contact-info h3 {
+            color: var(--accent-primary) !important;
+            margin-top: 0;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            transform: translateX(-4px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 1rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .main-content {
+                padding: 6rem 1rem 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">
+                <img src="LOGO/Standart.svg" alt="CorvoNest Logo" class="logo-icon">
+                <span class="logo-text">corvonest</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/">Home</a>
+                <a href="/privacy-policy.html">Privacy</a>
+                <a href="/terms.html">Terms</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <a href="/" class="back-link">
+            ← Back to Home
+        </a>
+
+        <div class="page-header">
+            <h1 class="page-title">Cookie Policy</h1>
+            <p class="page-subtitle">How we use cookies and similar technologies</p>
+        </div>
+
+        <div class="last-updated">
+            Last Updated: 12 Sep 2025
+        </div>
+
+        <div class="content">
+            <p>CORVONEST OÜ ("we", "us", or "our") may collect data through "cookies" and similar technologies when you visit our website www.corvonest.com ("Website") or use our mobile applications ("Applications") to enhance your experience, deliver our services, and perform analytics.</p>
+
+            <p>This Policy explains what these technologies are and how we use them. For more detailed information about your personal data, please review our Privacy Policy available on our website.</p>
+
+            <h2>1. What Are Cookies and Similar Technologies?</h2>
+
+            <p>On our Website, we use browser cookies, which are small text files stored on your device. In our Applications, which have more complex functionality, we use similar technologies like Local Storage and Device Identifiers. In this Policy, we refer to all these technologies as "Cookies."</p>
+
+            <h2>2. For What Purposes Do We Use Cookies?</h2>
+
+            <p>The purposes for which we use Cookies differ between our informational Website and our functional Applications.</p>
+
+            <h3>A. For our Website (www.corvonest.com):</h3>
+
+            <ul>
+                <li><strong>Essential Functionality:</strong> To ensure the Website operates correctly, securely, and is delivered to you efficiently. These Cookies do not handle logins or personal preferences as the Website does not offer these features.</li>
+                <li><strong>Performance and Analytics (With Consent):</strong> To analyze visitor traffic and understand how users interact with our Website in an anonymous or pseudonymous manner, helping us improve its content and structure.</li>
+                <li><strong>Marketing (With Consent):</strong> To measure the effectiveness of our marketing campaigns that direct traffic to our Website.</li>
+            </ul>
+
+            <h3>B. For our Mobile Applications:</h3>
+
+            <ul>
+                <li><strong>Essential Functionality:</strong> To enable you to log in securely to your account, manage your session, remember essential preferences, and ensure the applications operate as expected.</li>
+                <li><strong>Performance and Analytics (With Consent):</strong> To analyze your use of the applications (e.g., which features are used most frequently) to improve user experience and resolve technical issues.</li>
+                <li><strong>Security:</strong> To protect your account and your data from suspicious or fraudulent activity.</li>
+            </ul>
+
+            <h2>3. Types of Cookies and Similar Technologies We Use</h2>
+
+            <h3>Strictly Necessary (Essential) Technologies:</h3>
+            <ul>
+                <li>On our <strong>Website</strong>, these technologies are absolutely essential for the site to perform its basic functions (e.g., security, network management).</li>
+                <li>In our <strong>Applications</strong>, they are also used for services you have requested, such as logging into your account.</li>
+                <li>Your consent is not sought for these technologies as our Services cannot function properly without them.</li>
+            </ul>
+
+            <h3>Performance and Analytics Technologies:</h3>
+            <ul>
+                <li>These technologies help us collect information (usually anonymized) about how our Website and Applications are used. This allows us to improve our Services, detect errors, and enhance user experience.</li>
+                <li>Your explicit consent will be requested before we use these technologies.</li>
+            </ul>
+
+            <h3>Marketing Technologies:</h3>
+            <ul>
+                <li>These technologies can help us deliver marketing communications that are more relevant to you and measure the effectiveness of our campaigns.</li>
+                <li>Your explicit consent will always be requested for the use of these technologies.</li>
+            </ul>
+
+            <h2>4. Managing Cookies and Consent</h2>
+
+            <p>When you first use one of our Applications or visit our Website, you will be presented with a consent banner. Through this, you can learn about the technologies we use and choose to "Accept All" optional Cookies or "Accept Only Essential" ones.</p>
+
+            <p>You can change your consent preferences at any time through the settings in our Applications or on our Website. Additionally, you can manage Cookies through your mobile device's operating system or your web browser's settings. Please note that it is not possible to disable strictly necessary technologies, as this could cause essential functions of the Website or Applications to fail.</p>
+
+            <div class="contact-info">
+                <h3>5. Contact Us</h3>
+                <p>If you have any questions or concerns about this Cookie Policy, please do not hesitate to contact us at support@corvonest.com.</p>
+                <p><strong>CORVONEST OÜ</strong><br>
+                Harju maakond, Kesklinna linnaosa, Viru väljak 2, 3. korrus Tallinn 10111<br>
+                Estonia</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
