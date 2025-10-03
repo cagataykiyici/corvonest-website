@@ -19,3 +19,5 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+# Local MCP configuration
+.kilocode/mcp.json
